@@ -1,6 +1,6 @@
 import time, json, random, hashlib, requests, os
 
-SERVER_URL = "https://your-render-url.onrender.com/submit"  # 🔹 Replace with your Render URL later
+SERVER_URL = "https://neurochain-node.onrender.com/submit"
 
 def sign_data(data, secret):
     raw = json.dumps(data) + secret
